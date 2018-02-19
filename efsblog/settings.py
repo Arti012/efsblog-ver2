@@ -25,7 +25,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'c(wa#-@(zc*$z#!qnns8g-t$w761mj=n-y%f^oapdm*4lz&ytl'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS =['*']
 
@@ -44,8 +44,6 @@ INSTALLED_APPS = [
     'portfolio',
     'django.contrib.humanize',
 ]
-
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'  # During development only
 
 
 MIDDLEWARE = [
@@ -85,7 +83,7 @@ WSGI_APPLICATION = 'efsblog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dfjamij64hv1dk',
+        'NAME': 'database name from Heroku',
         'USER': 'hdjfoqxpbysqxp',
         'PASSWORD': '81a4b1f6f258e6c4d0fb5751fb80d4275909aab16f1330d71647d52b14428a61',
         'HOST': 'postgres://hdjfoqxpbysqxp:81a4b1f6f258e6c4d0fb5751fb80d4275909aab16f1330d71647d52b14428a61@ec2-54-163-234-99.compute-1.amazonaws.com:5432/dfjamij64hv1dk',
