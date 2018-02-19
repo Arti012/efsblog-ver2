@@ -85,10 +85,10 @@ WSGI_APPLICATION = 'efsblog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'database name from Heroku',
-        'USER': 'gkpnmipgkwcdid',
-        'PASSWORD': '081646ca544dff7eb526320b76a92ceb7c45bc9bdde32e1e1f5aebf80773aa3d',
-        'HOST': 'postgres://gkpnmipgkwcdid:081646ca544dff7eb526320b76a92ceb7c45bc9bdde32e1e1f5aebf80773aa3d@ec2-54-163-234-99.compute-1.amazonaws.com:5432/dba9l4ibbdf94g',
+        'NAME': 'dfjamij64hv1dk',
+        'USER': 'hdjfoqxpbysqxp',
+        'PASSWORD': '81a4b1f6f258e6c4d0fb5751fb80d4275909aab16f1330d71647d52b14428a61',
+        'HOST': 'postgres://hdjfoqxpbysqxp:81a4b1f6f258e6c4d0fb5751fb80d4275909aab16f1330d71647d52b14428a61@ec2-54-163-234-99.compute-1.amazonaws.com:5432/dfjamij64hv1dk',
         'PORT': '5432',
 
     }
